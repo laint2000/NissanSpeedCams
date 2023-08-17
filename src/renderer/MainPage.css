@@ -1,0 +1,15 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+  gap: 1em;
+}
+
+.main-page__body {
+  overflow-wrap: break-word;
+  overflow-y: auto;
+
+  flex: 1;
+  width: 100%;
+}
